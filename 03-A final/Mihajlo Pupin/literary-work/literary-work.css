@@ -1,0 +1,86 @@
+* {
+    box-sizing:border-box;
+    margin: 0;
+    padding: 0;
+    
+    }
+
+
+body {
+     font-family:sans-serif; 
+    }
+    .container {
+     background-color: rgb(95, 94, 94);
+    
+    width: 15em;
+    height: 100vh;
+    display: inline-block;
+    justify-content: center;
+    list-style-type: none;
+    position: fixed;
+    text-decoration: none;
+}
+
+
+nav a {
+    color: white;
+    text-decoration: none;
+  
+   font-size: 1,5em;
+font-style: italic;
+margin: 1em;
+text-align: center;
+letter-spacing: 0,5em;
+display: inline-block;
+}
+.tabel {    
+   
+
+        color:tomato;
+        background-color: rgb(97, 97, 48);
+        display: inline-block;
+        padding-left: 18em;
+        width: 85em;
+        height:100vh;
+       
+    
+    
+}
+table {    
+    border-style: solid;
+    border-color: rgb(97, 95, 93);
+    border-collapse: collapse;
+    border-spacing: 0;
+  
+    
+    font-family: sans-serif ;
+}
+th {
+    display:block;
+    border-style: solid;
+    border-color: rgb(5, 7, 12);
+color: rgb(162, 1, 1);
+background-color: rgb(223, 189, 165);
+text-transform: uppercase;
+word-spacing: 0,5vw;
+letter-spacing: 0,5em;
+
+}
+td {
+    border-style: solid;
+    border-color: rgb(5, 7, 12);
+padding: 0,5em;
+width: 30vw;
+line-height: 20.em;
+}
+p {
+    color: rgb(90, 174, 205);
+}
+
+footer {
+    color: darkslateblue;
+    background-color: rgb(97, 97, 48);
+    font-size: small;
+    
+    padding-left: 20em;
+}
